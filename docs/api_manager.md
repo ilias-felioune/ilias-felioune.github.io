@@ -11,10 +11,12 @@ Cette partie se compose de deux services NodeJs avec Express qui serviront l'une
 Le dockerfile utilise l'image node:alpine, copie le package.json et lance un npm install.
 
 ## Routes Cloud:
-- /get_users
-- /get_sensors
-- /get_rooms
-- /get_buildings
+- /users
+- /sensors
+- /rooms
+- /buildings
+
+La méthode CRUD peut être utilisé sur toutes ces routes.
 
 ## Routes Locale:
 
